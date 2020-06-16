@@ -1,0 +1,12 @@
+<p>Name:</p>
+<h1><%= @name %></h1>
+<p>Type 1:</p>
+
+<h2 style="color: <%= @type1_hash[@type1] %>;"><%=@type1 %></h2>
+
+<% if @type2 %>
+  <p>Type 2:</p>
+  <h3><%= @type2 %></h3>
+<% end  %>
+<p>Level: </p>
+<h4><%= @level %></h4>
